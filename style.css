@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.header {
+  background-color: rgb(18, 73, 255);
+  height: 62px;
+  font-size: 22px;
+  font-weight: 550;
+  padding-top: 10px;
+  width: auto;
+  display: flex;
+}
+
+.button {
+  background-color: white;
+  border-color: white;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  padding-bottom: 4px;
+  inline-size: 110px;
+}
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 8px 15px 8px 35px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.First {
+  height: 90px;
+  background-color: white;
+  padding-left: 40px;
+  padding-top: 10px;
+  font-size: 16px;
+
+}
+
+.Second {
+  height: 300px;
+  background-color: white;
+  margin-left: -14px;
+ 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: black;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.box1{
+  margin-left: -50px;
+  margin-top: 13px;
+  border: 4px solid white;
+  width: 250px;
+}
+.camera{
+  margin-top: 13px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 250px;
+}
+.printers{
+  margin-top: 13px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 250px;
+}
+.powerbank{
+  margin-top: 13px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 250px;
+}
+.hairdryer{
+  margin-top: 13px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 250px;
+}
+.projecter{
+  margin-top: 13px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 250px;
+}
+.moniters{
+  margin-top: 13px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 250px;
+}
+.printer{
+  margin-top: 13px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 250px;
+}
+.areoplane{
+  width: 250px;
+  margin-top: -310px;
+  margin-left: 938px;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  
+}
+.beauty{
+  width: 1360px;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-top: 650px;
+  margin-left: -9px;
+}
+.explore{
+  margin-left: 40px;
+}
+.guitar{
+  width: 250px;
+  height: 315px;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-top: -312px;
+  margin-left: 240px;
+}
+.gym{
+  width: 250px;
+  height: 315px;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-top: -312px;
+  margin-left: 1px;
+}
+.toys{
+  width: 250px;
+  height: 315px;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-top: -312px;
+  margin-left: 2px;
+}
+.lubricant{
+  width: 250px;
+  height: 315px;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-top: -312px;
+  margin-left: 2px;
+}
+.sports{
+  width: 230px;
+  height: 320px;
+  border: 4px solid white;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: -5px;
+  font-size: 30px;
+}
+.washer{
+  width: 250px;
+  height: 315px;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-top: -218px;
+  margin-left: 228px;
+}
+.softtoys{
+  width: 250px;
+  height: 315px;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-top: -315px;
+  margin-left: 480px;
+}
+.coffee{
+  width: 250px;
+  height: 315px;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-top: -315px;
+  margin-left: 732px;
+}
+.cycle{
+  width: 250px;
+  height: 315px;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-top: -315px;
+  margin-left: 986px;
+}
+.boxviewall{
+  width: 90px;
+  height: 50px;
+  border: 4px solid white;
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 7px;
+  font-weight: 900;
+  border-radius: 2px;
+  margin-top: -150px;
+  margin-left: 60px;
+}
+.footer{
+  background-color: aliceblue;
+  height: 2550px;
+  width: 1250px;
+  padding-top: 80px;
+  line-break: auto;
+  word-spacing: 2px;
+  margin: -7px;
+}
+.end{
+  height: 450px;
+  width: 1250px;
+  padding-top: 50px;
+  /* background-color: rgb(24, 24, 28); */
+}
